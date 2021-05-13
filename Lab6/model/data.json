@@ -1,0 +1,96 @@
+{
+    "pageTextData": [
+		{
+			"title": "Coca Cola Great Britain",
+			"subTitle": "Founded in 1886 Dr John S Pemberton",		
+			"description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+		},
+		{
+			"title": "Coca Cola",
+			"subTitle": "New York Harbour, 1886",		
+			"description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+		},
+		{
+			"title": "Sprite",
+			"subTitle": "West Germany, 1959",		
+			"description": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+		},
+		{
+			"title": "Dr Pepper",
+			"subTitle": "Texas, 1885",		
+			"description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. The distinctive, bold taste of Dr Pepper has been popular ever since."
+		},
+		{
+			"x3dModelTitle": "Coca Cola Energy X3D Model",
+			"x3dCreationMethod": "This model was initially developed within Autodesk Maya and exported as a .obj file. Following this, the model was taken into Cinema 4D to be re-textured and exported as a VRML97 file. The instant reality transcoders were then used to convert the VRML97 to X3D code, allowing the model to be displayed and interacted with online! ",
+			"title": "Coca Cola Energy - The only energy drink with a great coca-cola taste ",
+			"subTitle": "Atlanta Beginnings",		
+			"description": "It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass."
+		},
+		{
+			"x3dModelTitle": "Fuze Tea X3D Model",
+			"x3dCreationMethod": "This model was developed within Cinema 4D with textures being created using Adobe Illustrator. The model was then exported as a VRML97 file and converted to X3D code using the instant reality transcoders so it can be viewed on this webpage!",
+			"title": "Fuze Tea - Surprising fusions, deliciously good",
+			"subTitle": "Lance Collins",		
+			"description": "Fuze Beverage was founded by Lance Collins and creative director Paula Grant in the basement of Collins' Englewood Cliffs, New Jersey home in 2000. Bruce Lewin put the fuel in the rocket (obtained funding for the fledgling company) in 2001. He subsequently joined Fuze's board and became a major shareholder."
+		},
+        {
+			"x3dModelTitle": "Costa Coffee X3D Model",
+			"x3dCreationMethod": "This model was developed within Autodesk Maya then was exported as a .obj file and imported into Cinema 4D. The model was then textured and exported as aVRML97 file which was converted using the instant reality transcoders to X3D code, permitting the model to be viewed online!",
+			"title": "Costa Coffee - Real milk. Real beans. Real good",
+			"subTitle": "Eusebio Costa Sergio Costa",		
+			"description": "Costa Coffee was founded in London in 1971 by two brothers Bruno and Sergio Costa as a wholesale operation supplying roasted coffee to caterers and specialist Italian coffee shops. Acquired by Whitbread in 1995, it was sold in 2019 to The Coca-Cola Company in a deal worth £3.9bn, and has grown to 3,401 stores across 31 countries and 18,412 employees. The business has 2,121 UK restaurants, over 6,000 Costa Express vending facilities and a further 1,280 outlets overseas (460 in China)"
+		},
+		{
+			"galleryTitle": "3D Rendered Images",
+			"galleryDescription": "These 3D images were rendered within Cinema 4D, using the photo realistic rendering. They demonstrate the modelled coke energy can, fuze tea bottle, costa coffee mug and Coca Cola can."
+		},
+		{
+			"CameraTitle": "Camera Views",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+		},
+		{
+			"title": "Fuze Tea's Blend Sections",
+			"description": "Fuze Tea is a delicious fusion of fruit juice, botanicals and tea, blended together to give a delicious taste. Fuze Tea is currently available in Mango Camomile and Peach Hibiscus flavours."
+		},
+		{
+			"description": "If life were predictable it would cease to be life, and be without flavor."
+		},
+		{
+			"title": "Coca Cola's New Energy Drink?",
+			"description": "The only energy drink with a great Coca‑Cola taste! With caffeine from naturally-derived sources, guarana extracts and B vitamins, and completely taurine-free, Coca‑Cola Energy is here to complement your upbeat and busy life. Niacin (Vitamin B3) and Vitamin B6 contribute to normal energy-yielding metabolism. Consume as part of a varied and balanced diet and healthy lifestyle."
+		},
+		{
+			"description": "Happiness is like coke - something you get as a by-product in the process of making something else."
+		},
+		{
+			"title": "Costa Coffee's New Canned Collection",
+			"description": "Served in London since 1971, Costa Coffee's signature blend is the perfect balance of delicate Arabica and strong Robusta beans, slow-roasted for a smooth and nutty flavour and rich aroma. Now you can experience it in a can on the go."
+		},
+		{
+			"title": "Coca Cola",
+			"description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+		},
+		{
+			"title": "A History of Dr Pepper",
+			"description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. The distinctive, bold taste of Dr Pepper has been popular ever since."
+		},
+		{
+			"title": "Sprite's Success",
+			"description": "Crisp, refreshing and clean-tasting, Sprite is a lemon and lime-flavoured soft drink. It first hit shop shelves back in 1961 and today it’s sold in more than 190 countries."
+		},
+		{
+			"title": "Here is the list of references which have been used throughout this assignment.",
+			"subTitle": "All code developed has been my own, taking reference from the module labs and following along with the tutorials (with lab overviews seen here https://github.com/martinwh/3D_Apps_2020)."
+		},
+		{
+			"title": "Thoughts On My Finished Assignment",
+			"description": "Within this assignment I have developed a single page 3D application where  3D models have been embedded, data is being returned through JSON and collected through SQL lite (in the simplest description). During this assignment a range of different problems arose of which were overcome to the best of my ability in order to achieve the best possible outcome within the time frame I was given to complete this assignment. Within these issues, a significant problem came in form of not having access to 3DS Max to allow for the correct file export with associated data. Due to the current pandemic I have been unable to access the computers within the labs, so have been working remotely on a MacBook. With this in mind I developed models across Autodesk Maya, Blender and Cinema 4D in attempts to achieve the best outcome which meets all marking criteria. Out of these options it was noted that Cinema 4D achieved the best outcome with the most functionality in relation to this assignment. Although, a large issue still arose in that in order to export a VRML file, only one texture could be exported with each model, causing a great amount of issues for the models I had developed, as their UX texture maps needed to be highly detailed. After many attempts at achieving a realistic texture map, I found that I couldn’t achieve the detail I was hoping for. If I had more time on this assignment I would work towards researching how to create further detailed models with the software I have access to. Through this assignment the models were by far the most challenging aspect, although I had some difficulties understanding the addition of JSON and an MVC framework of which required detailed research and a vast amount of time to understand. Overall I am pleased with this assignment outcome, although if given more time I would like to spend further time researching these aspects and improving my single page 3D app further. ",
+			"subTitle": "Don't forget to check out my GitHub account where you can find all my completed labs for this project, along with the final code for this project within the Mobile3DApplications repository!"
+		},
+		{
+			"title": "Download my X3D files",
+			"description": "Here are the links to download my X3D files!"
+		}
+	]
+}
