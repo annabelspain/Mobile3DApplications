@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/custom.css"> 
+    <!-- X3dom -->
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'>
+    <!-- Include the x3dom JavaScript -->
+    <script type='text/javascript' src='js/x3dom.js'></script>
+
+    <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/1e964ecf4b.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+
+
+    <title>Coca Cola 3D Application Lab 1</title>
+
+  </head>
+  <body>
+      <!-- Navigation bar -->
+    <nav class="navbar container-fluid sticky-top navbar-expand-sm navbar_coca_cola">
+        <div class="logo">
+            <a class="navbar-brand" href="#">
+                <h1>1</h1>
+                <h1>oca</h1>
+                <h2>Cola</h2>
+                <h3>Journey</h3>
+                <p>Refreshing the world, one story at a time</p>
+            </a>
+        </div>
+            
+
+        <!-- Nav menu icon -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>      
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                
+                <!-- Dropdown Links -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+                    <div class="dropdown-menu">
+                        <a class="dropmenu-item" href="#">Coca Cola</a>
+                        <a class="dropmenu-item" href="#">Sprite</a>
+                        <a class="dropmenu-item" href="#">Dr Pepper</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+      <!-- Body of site -->
+      <div class="container-fluid main_contents">
+
+        <!-- Holding 3D model and gallery (2 cards)-->
+        <div class="row">
+             <!-- 3D model -->
+            <div class="col-sm-10">
+                <div class="card text-left">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="coke.html">Coke</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sprite.html">Sprite</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pepper.html">Pepper</a>
+                            </li>
+                        </ul>
+                    </div>
+  
+                    <!-- PUT 3D CODE HERE ----------------------------------------------------------------->
+
+                    <div class="model3D">
+                        <x3d>
+                            <scene>
+                                <inline url="assets/x3d/CokeCanFinal.x3d"></inline>
+                            </scene>
+                        </x3d>
+                    </div>
+
+
+                    <!-- model information  -->
+                    <div class="card-body">
+                        <h4 class="card-title">Coca Cola X3D Model</h4>
+                        <p class="card-text">This X3D model of the coke can has been created in Maya and Blender, exported to
+                            XML and converted, using the instantreality transcoders, for display online.</p>
+
+                        <h5 class="card-subtitle">Camera Views</h5>
+                        <div class="camera-btns">
+                            <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                            <div class="btn-group ">
+                                <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                                <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                                <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                                <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                                <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                                <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery -->
+            <div class="col-sm-2">
+                <div class="card text-left">
+                    <div class="card-header">3D Image Gallery</div>
+                    <a href="coke.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg" alt="Coca Cola">
+                    </a>
+                    <a href="sprite.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg" alt="Sprite">
+                    </a>
+                    <a href="pepper.html">
+                        <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper.jpg" alt="Dr Pepper">
+                    </a>
+                    <p class="card-text">3D images rendered in Maya and Blender with mental ray</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Cards -->
+        <div class="row">
+            <!-- Coca Cola -->
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Coca Cola</h3>
+                            <p class="card-text">Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled.
+                                Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down
+                                to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.</p>
+                            <a href="#" class="btn btn-primary">Find out more ...</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    
+
+    <!-- Footer -->
+    <nav class="navbar navbar-expand-sm footer">
+        <div class="container-fluid">
+            <div class="navbar-text float-left copywrite">
+                <p><span class="align-baseline"></span>&copy 2021 Mobile Web 3D Applications</span></p>
+            </div>
+            <div class="navbar-text float-right social">
+                <a href="#"><i class="fab fa-facebook-square fa-2x" style="font-size:20px;color:red;"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x" style="font-size: 20px; color: green;"></i></a>
+                <a href="#"><i class="fab fa-google-plus fa-2x" style="font-size: 20px; color: blue;"></i></a>
+                <a href="#"><i class="fab fa-github-square fa-2x" style="font-size: 20px; color: yellow;"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
