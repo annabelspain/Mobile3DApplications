@@ -3,17 +3,17 @@
 /* Method to declare your own fonts */
 @font-face {
 	font-family: cocaColaFont;
-	src: url(../Assets/fonts/loki_cola/LOKICOLA.TTF);
+	src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(../Assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Oswald;
-    src: url(../Assets/fonts/Oswald/static/Oswald-Regular.ttf);
+    src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
 }
 
 /* BODY OF SITE ----------------------------------------*/ 
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_3d_image {
-    background-image: url(../Assets/images/site_images/main_3D.jpg);
+    background-image: url(../assets/images/site_images/main_3D.jpg);
     background-repeat: no-repeat;
     height: 200px;
 }
@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
         background-color: rgb(205, 226, 225);
     }
     #main_3d_image {
-        background-image: url(../Assets/images/site_images/main_3D_768.jpg);
+        background-image: url(../assets/images/site_images/main_3D_768.jpg);
         background-repeat: no-repeat;
         height: 288px;
     }
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../Assets/images/site_images/main_3D_970.jpg);
+        background-image: url(../assets/images/site_images/main_3D_970.jpg);
         background-repeat: no-repeat;
         height: 363px;
     }
@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     #main_3d_image {
-        background-image: url(../Assets/images/site_images/main_3D_1400.jpg);
+        background-image: url(../assets/images/site_images/main_3D_1400.jpg);
         background-repeat: no-repeat;
         height: 100%;
         margin: 20px;

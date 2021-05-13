@@ -1,5 +1,5 @@
 <?php
-include 'modelDrinkDetails.php';
+// include 'modelDrinkDetails.php';
 // You can define any configuration variables here
 
 // Display error message cause by your PHP scripts

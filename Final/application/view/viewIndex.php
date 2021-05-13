@@ -16,16 +16,16 @@
     <!-- Include the x3dom JavaScript -->
     <script type='text/javascript' src='js/x3dom.js'></script>
     <!--Gallery Scripts -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="../js/gallery_generator.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/gallery_generator.js"></script>
     <!-- Collecting the JSON data-->
-    <script src="../js/getJsonData.js"></script>
+    <script src="js/getJsonData.js"></script>
     <!--Re-style Scripts -->
-    <script src="../js/swap_restyle.js"></script>
+    <script src="js/swap_restyle.js"></script>
     <!--Custom Scripts -->
-    <script src="../js/custom.js" crossorigin="anonymous"></script>
+    <script src="js/custom.js" crossorigin="anonymous"></script>
     <!-- Script to set up cameras and spin -->
-    <script src="../js/modelInteractions.js"></script>
+    <script src="js/modelInteractions.js"></script>
     <!-- Fancy Box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>        
@@ -100,8 +100,8 @@
 
             <!-- Fuze Card -->
             <div class="card text-white bg-dark">
-            <a href="Assets/images/gallery_images/FuzeTea3.png" data-fancybox data-caption="My 3D Fuze Tea Render" class="thumbnail">
-                <img class="card-img-top" src="Assets/images/site_images/brands-fuzetea-mango-desktop-(1600x700)_2.jpg" alt="Card image cap">
+            <a href="./assets/images/gallery_images/FuzeTea3.png" data-fancybox data-caption="My 3D Fuze Tea Render" class="thumbnail">
+                <img class="card-img-top" src="./assets/images/site_images/brands-fuzetea-mango-desktop-(1600x700)_2.jpg" alt="Card image cap">
             </a>
               <div class="card-body">
                 <div id="title_fuzeCard" class="card-title homeText"></div>
@@ -124,8 +124,8 @@
             
             <!-- Coke Energy Card -->
             <div class="card text-white bg-dark">
-                <a href="Assets/images/gallery_images/CokeEnergy.png" data-fancybox data-caption="My 3D Coca Cola Energy Render" class="thumbnail">
-                    <img class="card-img-top" src="Assets/images/site_images/brands-coca-cola-energy-desktop-(1600x700)_2.jpg" alt="Card image cap">
+                <a href="assets/images/gallery_images/CokeEnergy.png" data-fancybox data-caption="My 3D Coca Cola Energy Render" class="thumbnail">
+                    <img class="card-img-top" src="assets/images/site_images/brands-coca-cola-energy-desktop-(1600x700)_2.jpg" alt="Card image cap">
                 </a>
                 <div class="card-body">
                     <div id="title_cokeCard" class="card-title homeText"></div>
@@ -148,8 +148,8 @@
 
             <!-- Costa Coffee Card -->
             <div class="card text-center text-white bg-dark">
-                <a href="Assets/images/gallery_images/CostaMug.png" data-fancybox data-caption="My 3D Costa Coffee Mug Render" class="thumbnail">
-                    <img class="card-img-top" src="Assets/images/site_images/brands-costa-coffee-desktop-(1600x700)_2.jpg" alt="Card image cap">
+                <a href="assets/images/gallery_images/CostaMug.png" data-fancybox data-caption="My 3D Costa Coffee Mug Render" class="thumbnail">
+                    <img class="card-img-top" src="assets/images/site_images/brands-costa-coffee-desktop-(1600x700)_2.jpg" alt="Card image cap">
                 </a>
                 <div class="card-body">
                     <div id="title_costaCard" class="card-title homeText"></div>
@@ -160,15 +160,15 @@
 
             <!-- Cola Coffee Card -->
             <div class="card text-white bg-dark">
-                <a href="Assets/images/site_images/Coca-cola-coffee.jpg" data-fancybox data-caption="Coca Cola Coffee" class="thumbnail">
-                    <img class="card-img" src="Assets/images/site_images/Coca-cola-coffee.jpg" alt="Card image">
+                <a href="assets/images/site_images/Coca-cola-coffee.jpg" data-fancybox data-caption="Coca Cola Coffee" class="thumbnail">
+                    <img class="card-img" src="assets/images/site_images/Coca-cola-coffee.jpg" alt="Card image">
                 </a>    
             </div>
 
             <!-- Coca Cola Card -->
             <div class="card text-center text-white bg-dark">
-                <a href="Assets/images/gallery_images/Coke_i1_075.png" data-fancybox data-caption="My 3D Coca Cola Can Render" class="thumbnail">
-                    <img class="card-img-top" src="Assets/images/site_images/coca-cola-original-brand-page-desktop-1600x700.jpg" alt="Card image cap">
+                <a href="assets/images/gallery_images/Coke_i1_075.png" data-fancybox data-caption="My 3D Coca Cola Can Render" class="thumbnail">
+                    <img class="card-img-top" src="assets/images/site_images/coca-cola-original-brand-page-desktop-1600x700.jpg" alt="Card image cap">
                 </a>
                 <div class="card-body">
                     <div id="title_cocaColaCard" class="card-title homeText"></div>
@@ -189,7 +189,7 @@
             
             <!-- Sprite Card -->
             <div class="card text-white bg-dark">
-                <img class="card-img-top" src="Assets/images/site_images/sprite-brand-page-desktop-1600x700.jpg" alt="Card image cap">
+                <img class="card-img-top" src="assets/images/site_images/sprite-brand-page-desktop-1600x700.jpg" alt="Card image cap">
                 <div class="card-body">
                     <div id="title_spriteCard" class="card-title homeText"></div>
                     <div id="description_spriteCard" class="card-test homeText"></div>
@@ -262,7 +262,7 @@
                         <div class="model3D">
                             <x3d>
                                 <scene>
-                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="Assets/X3Dmodels/CokeEnergy/CokeEnergy.x3d" > </inline>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/X3Dmodels/CokeEnergy/CokeEnergy.x3d" > </inline>
                                 </scene>
                             </x3d>
                         </div> 
@@ -276,7 +276,7 @@
                         <div class="model3D">
                             <x3d id="model">
                                 <scene>
-                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="Assets/X3Dmodels/FuzeTea/FuzeTea4.x3d"> </inline>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/X3Dmodels/FuzeTea/FuzeTea4.x3d"> </inline>
                                 </scene>
                             </x3d>
                         </div> 
@@ -290,7 +290,7 @@
                         <div class="model3D">
                             <x3d>
                                 <scene>
-                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="Assets/X3Dmodels/CostaCup/CostaCup1.x3d"> </inline>
+                                    <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/X3Dmodels/CostaCup/CostaCup1.x3d"> </inline>
                                 </scene>
                             </x3d>
                         </div> 
@@ -519,13 +519,13 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="Assets/images/gallery_images/FuzeTea3.png" alt="First slide">
+                <img class="d-block w-100" src="./assets/images/gallery_images/FuzeTea3.png" alt="First slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="Assets/images/gallery_images/CokeEnergy.png" alt="Second slide">
+                <img class="d-block w-100" src="./assets/images/gallery_images/CokeEnergy.png" alt="Second slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="Assets/images/gallery_images/CostaMug.png" alt="Third slide">
+                <img class="d-block w-100" src="./assets/images/gallery_images/CostaMug.png" alt="Third slide">
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -562,8 +562,8 @@
               <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Download my Coca Cola Energy Can here:</h5>
-                    <a href="Assets/X3Dmodels/CokeEnergy.zip" download="CokeEnergy">
-                        <img src="Assets/images/site_images/download-button.png" alt="downloadCokeEnergy" width="15%">
+                    <a href="./assets/X3Dmodels/CokeEnergy.zip" download="CokeEnergy">
+                        <img src="./assets/images/site_images/download-button.png" alt="downloadCokeEnergy" width="15%">
                     </a>
                 </div>
               </div>
@@ -574,8 +574,8 @@
               <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Download my Fuze Tea Bottle here:</h5>
-                    <a href="Assets/X3Dmodels/FuzeTea.zip" download="FuzeTea">
-                        <img src="Assets/images/site_images/download-button.png" alt="downloadFuzeTea" width="15%">
+                    <a href="./assets/X3Dmodels/FuzeTea.zip" download="FuzeTea">
+                        <img src="./assets/images/site_images/download-button.png" alt="downloadFuzeTea" width="15%">
                     </a>
                 </div>
               </div>
@@ -586,8 +586,8 @@
                 <div class="card">
                   <div class="card-body">
                     <h5>Download my Costa Coffee Mug here:</h5>
-                    <a href="Assets/X3Dmodels/CostaMug.zip" download="CostaCoffeeMug">
-                        <img src="Assets/images/site_images/download-button.png" alt="downloadCostaMug" width="15%">
+                    <a href="./assets/X3Dmodels/CostaMug.zip" download="CostaCoffeeMug">
+                        <img src="./assets/images/site_images/download-button.png" alt="downloadCostaMug" width="15%">
                     </a>
                   </div>
                 </div>
@@ -598,8 +598,8 @@
                 <div class="card">
                   <div class="card-body">
                     <h5>Download my Costa Coffee Cup here:</h5>
-                    <a href="Assets/X3Dmodels/CostaCup.zip" download="CostaCoffeeCup">
-                        <img src="Assets/images/site_images/download-button.png" alt="downloadCostaCup" width="15%">
+                    <a href="./assets/X3Dmodels/CostaCup.zip" download="CostaCoffeeCup">
+                        <img src="./assets/images/site_images/download-button.png" alt="downloadCostaCup" width="15%">
                     </a>
                   </div>
                 </div>
@@ -630,17 +630,17 @@
     <!-- Optional JavaScript -->
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/popper.min.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
 
     <!--<script src="js/bootstrap.js"></script>-->
-    <script src="../js/bootstrap-4.4.1.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
 
     <!-- JavaScript to swap for SPA and restyle -->
     <!-- <script src="scripts/js/swap_restyle.js"></script> -->
 
     <!-- Also, intialises popovers-->
-    <script src="../js/custom.js"></script>
+    <script src="js/custom.js"></script>
 
 
 
